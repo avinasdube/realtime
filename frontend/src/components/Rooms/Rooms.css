@@ -1,0 +1,33 @@
+.rooms-container, .active-rooms, .rooms-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.rooms-container .active-rooms{
+    gap: 1em;
+}
+
+.rooms-container .heading{
+    background-color: #1a1a1a;
+}
+
+.rooms-container .rooms-list{
+    text-align: left;
+    gap: 0.5em;
+}
+
+.rooms-container .current-user {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    font-size: 11px;
+}
+
+.current-user .c-u-name{
+    background-color: #1a1a1a;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 2px;
+    padding: 0.2em;
+}
