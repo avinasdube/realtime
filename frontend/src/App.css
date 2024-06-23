@@ -4,27 +4,3 @@
   padding: 2rem;
   text-align: center;
 }
-
-.chat-container{
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-
-.message-container{
-  background-color: whitesmoke;
-  height: 200px;
-  border-radius: 8px;
-  color: black;
-}
-
-form{
-  display: flex;
-  flex-direction: column;
-}
-
-.msg-input, .room-input{
-  width: 100%;
-  display: flex;
-  gap: 1em;
-}
