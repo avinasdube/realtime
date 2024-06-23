@@ -1,0 +1,47 @@
+.chat-container {
+    display: flex;
+    gap: 1em;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 1em;
+}
+
+.message-container {
+    height: 200px;
+    text-align: left;
+    border-radius: 2px;
+    color: whitesmoke;
+    padding: 1em;
+    font-size: 14px;
+    border: 0.1em solid #1a1a1a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.msg-input,
+.room-input {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.right-side .users-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: left;
+}
